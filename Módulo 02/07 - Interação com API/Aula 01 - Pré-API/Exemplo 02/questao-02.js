@@ -26,10 +26,10 @@ function somar(x , y){
 alert(somar(7,5))
 */
 
-let num1 = (parseInt(prompt("Digite um numero:")))
-let num2 = (parseInt(prompt("Digite outro numero")))
 
-function somar(x, y){
-   return (x + y)
+function somar(){
+   return (2 + 4)
 }
-alert(somar(num1 + num2))
+//alert(somar(num1 + num2))
+
+somar()
