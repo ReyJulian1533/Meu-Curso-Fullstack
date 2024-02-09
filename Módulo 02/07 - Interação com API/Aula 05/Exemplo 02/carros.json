@@ -1,0 +1,19 @@
+[
+    {
+        "modelo": "Mobi",
+        "marca": "fiat",
+        "ano": 2018
+    },
+
+    {
+        "modelo": "320I",
+        "marca": "BMW",
+        "ano": 2020
+    },
+
+    {
+        "modelo": "Del rey",
+        "marca": "ford",
+        "ano": 1989
+    }
+]
