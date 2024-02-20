@@ -3,11 +3,10 @@ async function resolvrer(){
     let tarefas = await busca1.json()
 
 
-    for(let x in tarefas){
-         document.body.innerHTML += `<h1> ${tarefas[x]} </h1>`
+    for(let x of tarefas){
+         document.body.innerHTML += `<h1> ${x} </h1>`
     }
    
-
 }
 
 resolvrer()
