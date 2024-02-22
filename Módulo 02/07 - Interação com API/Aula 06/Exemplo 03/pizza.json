@@ -1,0 +1,20 @@
+[
+    {
+        "pizza": "calabresa",
+        "loja": "chopizza",
+        "tamanho": "G",
+        "valor": "34.50"
+    },
+    {
+        "pizza": "Camarão",
+        "loja": "chopizza",
+        "tamanho": "P",
+        "valor": "24.60"
+    },
+    {
+        "pizza": "frango",
+        "loja": "chopizza",
+        "tamanho": "GG",
+        "valor": "45.30"
+    }
+]
