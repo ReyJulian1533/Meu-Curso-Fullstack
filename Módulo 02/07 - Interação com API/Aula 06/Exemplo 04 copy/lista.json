@@ -1,0 +1,30 @@
+[
+    {
+        "id":1,
+        "produto":"Máquina de lavar",
+        "imagem":"https://sp.yimg.com/ib/th?id=OPHS.ZlMmpXPvQ9stNA474C474&o=5&pid=21.1&w=174&h=174",
+        "modelo":"Com secadora",
+        "preco":4.500
+    },
+    {
+        "id":2,
+        "produto":"Geladeira",
+        "imagem":"https://sp.yimg.com/ib/th?id=OPHS.VqEHanOXNpoa7w474C474&o=5&pid=21.1&w=174&h=174",
+        "modelo":"Duas portas",
+        "preco":1.250
+    },
+    {
+        "id":3,
+        "produto":"Ventilador",
+        "imagem":"https://sp.yimg.com/ib/th?id=OPHS.IhO9r6EqhjLz8g474C474&o=5&pid=21.1&w=174&h=174",
+        "modelo":"De mesa",
+        "preco":150.00
+    },
+    {
+        "id":4,
+        "produto":"Torradeira",
+        "imagem":"https://sp.yimg.com/ib/th?id=OPHS.qbMve0%2bx63WO0g474C474&o=5&pid=21.1&w=174&h=174",
+        "modelo":"Eletroportatil",
+        "preco":135.00
+    }
+]

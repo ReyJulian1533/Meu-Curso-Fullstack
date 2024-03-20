@@ -1,0 +1,15 @@
+.lista-card{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+.card{
+    display: flex;
+    border: 5px solid #000;
+    width: fit-content;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px
+    ;
+}
