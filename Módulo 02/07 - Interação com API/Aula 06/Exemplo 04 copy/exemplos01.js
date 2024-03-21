@@ -11,7 +11,7 @@ async function produtos(){
                 <p>${movel.modelo}</p>
                 <p>R$ ${movel.preco.t}</p>
             </div>
-        `       
+        ` 
     }
 
     //Busca por todos elementos HTML que contém "card"
@@ -25,7 +25,13 @@ async function produtos(){
 }
 produtos()
 
+//E chamada essa função quando o usuário clicou
+// em um card que contém o evento de Escuta. 
+
 function clicou(){
+
+    //coleta o valor do atributo "data-id" do elemento
+    //HTML que adcionou o evento de Escuta. 
     let elementoId = this.getAttribute("data-id")
     window.location.href = "detalhes.html?produto-id=" + elementoId
 }
