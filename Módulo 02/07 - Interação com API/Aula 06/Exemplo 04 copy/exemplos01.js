@@ -9,7 +9,7 @@ async function produtos(){
                 <h3>${movel.produto}</h3>
                 <img src="${movel.imagem}" width="250px" height="250px">
                 <p>${movel.modelo}</p>
-                <p>R$ ${movel.preco.t}</p>
+                <p>R$ ${movel.preco}</p>
             </div>
         ` 
     }
