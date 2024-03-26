@@ -18,6 +18,7 @@ async function buscarDetalhes(){
 
     document.body.innerHTML = `
         <h3>${produtos[indicieProd].produto}</h3>
+        <img src="
     `
 }
 
