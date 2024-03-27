@@ -9,8 +9,8 @@ async function Loja(){
                 <h3>${x.MarcaModelo}</h3>
                 <img src="${x.img}" width="250px" height"250px">
                 <p>${x.Ano}</p>
-                <p>R$ ${x.ApenasPor.toFixed(3)}</p>
-                <p>Parcelado ${x.Ou.toFixed(3)}</p>
+                <p>Avista: R$ ${x.ApenasPor.toFixed(3)}</p>
+                <p>Parcelado: R$ ${x.Ou.toFixed(3)}</p>
             </div>
         `
     }

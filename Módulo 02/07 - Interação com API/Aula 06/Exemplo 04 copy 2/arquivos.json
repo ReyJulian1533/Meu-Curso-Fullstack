@@ -3,7 +3,7 @@
         "id":1,
         "MarcaModelo":"Honda CG Titan 160",
         "img":"https://motonewsbrasil.com/wp-content/uploads/2019/08/honda-cg-160-titan-2020-5.jpg",
-        "Ano":"Ano 2020",
+        "Ano":"Ano: 2020",
         "ApenasPor":8.990,
         "Ou":9.990
     },
@@ -11,7 +11,7 @@
         "id":2,
         "MarcaModelo":"YAMAHA Factor",
         "img":"https://motonewsbrasil.com/wp-content/uploads/2023/07/yamaha-factor-150-ubs-2024-azul-lateral-direita-800x445.jpg",
-        "Ano":"Ano 2024",
+        "Ano":"Ano: 2024",
         "ApenasPor":9.500,
         "Ou":10.770
     },
@@ -19,15 +19,15 @@
         "id":3,
         "MarcaModelo":"YAMAHA Fazer FZ25",
         "img":"https://motonewsbrasil.com/wp-content/uploads/2023/08/yamaha-fazer-fz25-abs-2024-verde-lateral-direita-800x445.jpg",
-        "Ano":"Ano 2024",
+        "Ano":"Ano: 2024",
         "ApenasPor":15.770,
         "Ou":17.400
     },
     {
         "id":4,
         "MarcaModelo":"YAMAHA Fazer 150",
-        "img":"https://motonewsbrasil.com/wp-content/uploads/2023/06/yamaha-fazer-150-ubs-2024-2.jpg",
-        "Ano":"Ano 2024",
+        "img":"https://motonewsbrasil.com/wp-content/uploads/2023/06/yamaha-fazer-150-ubs-2024-preta-frontal-direita.jpg",
+        "Ano":"Ano: 2024",
         "ApenasPor":13.500,
         "Ou":14.700
     },
@@ -35,7 +35,7 @@
         "id":5,
         "MarcaModelo":"Honda XRE-300 Sahara - Bej",
         "img":"https://motonewsbrasil.com/wp-content/uploads/2023/11/honda-xre-300-sahara-adventure-2024-800x445.jpg",
-        "Ano":"Ano 2024",
+        "Ano":"Ano: 2024",
         "ApenasPor":27.900,
         "Ou":28.650
     },
@@ -43,7 +43,7 @@
         "id":6,
         "MarcaModelo":"Honda CB 125R - Azul",
         "img":"https://motonewsbrasil.com/wp-content/uploads/2024/03/honda-cb125r-2024-azul-frontal-direita-1536x1024.jpg",
-        "Ano":"Ano 2024",
+        "Ano":"Ano: 2024",
         "ApenasPor":19.500,
         "Ou":20.465
     }
