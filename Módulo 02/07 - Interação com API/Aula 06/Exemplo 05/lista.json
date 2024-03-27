@@ -1,0 +1,46 @@
+[
+    {
+        "id":1,
+        "produto":"Máquina de lavar",
+        "imagem": [
+                    "https://sp.yimg.com/ib/th?id=OPHS.ZlMmpXPvQ9stNA474C474&o=5&pid=21.1&w=174&h=174",
+                    "https://a-static.mlcdn.com.br/1500x1500/maquina-de-lavar-brastemp-13kg-com-ciclo-tira-machas-advanced-e-ciclo-antibolinha-branca-bwk13ab-220v/comprebel2/77781/867c420441037efc989fa98a0182797c.jpeg",
+                    "https://a-static.mlcdn.com.br/1500x1500/maquina-de-lavar-brastemp-13kg-com-ciclo-tira-machas-advanced-e-ciclo-antibolinha-branca-bwk13ab-220v/comprebel2/77781/eed22e2179133abdcb6764f42f721280.jpeg"
+                ],
+        "modelo":"Com secadora imbutida",
+        "preco":4.500
+    },
+    {
+        "id":2,
+        "produto":"Geladeira",
+        "imagem":[
+                    "https://sp.yimg.com/ib/th?id=OPHS.VqEHanOXNpoa7w474C474&o=5&pid=21.1&w=174&h=174",
+                    "https://a-static.mlcdn.com.br/800x560/geladeira-electrolux-frost-free-inverter-435l-efficient-com-autosense-side-by-side-cor-inox-look-is4s/electrolux/310120577/88109d699e2e23cb1f2f5a6aec2534ed.jpeg",
+                    "https://a-static.mlcdn.com.br/800x560/geladeira-electrolux-frost-free-inverter-435l-efficient-com-autosense-side-by-side-cor-inox-look-is4s/electrolux/310120577/27695fe97839aabc32e32d959c6a1f9a.jpeg"
+                ],
+        "modelo":"Guarsda roupas de duas portas",
+        "preco":1.250
+    },
+    {
+        "id":3,
+        "produto":"Ventilador",
+        "imagem":[
+                    "https://sp.yimg.com/ib/th?id=OPHS.IhO9r6EqhjLz8g474C474&o=5&pid=21.1&w=174&h=174",
+                    "https://imgs.casasbahia.com.br/50005642/2g.jpg",
+                    "https://imgs.casasbahia.com.br/50005642/3g.jpg"
+                ],
+        "modelo":"Ventilador de mesa",
+        "preco":150.00
+    },
+    {
+        "id":4,
+        "produto":"Torradeira",
+        "imagem":[
+                    "https://sp.yimg.com/ib/th?id=OPHS.qbMve0%2bx63WO0g474C474&o=5&pid=21.1&w=174&h=174",
+                    "https://a-static.mlcdn.com.br/800x560/torradeira-electrolux-efficient-ets10-granite-gray-2-fatias-8-niveis-de-tostagem/magazineluiza/231236300/a66f728974f4f74857d9b614d8ca9021.jpg",
+                    "https://a-static.mlcdn.com.br/800x560/torradeira-electrolux-efficient-ets10-granite-gray-2-fatias-8-niveis-de-tostagem/magazineluiza/231236300/42b20284ee961c1f60f200837f55848e.jpg"
+                ],
+        "modelo":"Torradeira Eletroportatil",
+        "preco":135.00
+    }
+]
