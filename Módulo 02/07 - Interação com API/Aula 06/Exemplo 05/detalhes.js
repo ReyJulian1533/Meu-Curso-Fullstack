@@ -19,6 +19,13 @@ async function buscarDetalhes(){
 
         </div>
     `
+
+    let divMiniaturas = document.getElementById("miniaturas")
+    for(let x of produtos[indicieProd].imagem){
+            divMiniaturas.innerHTML +=`
+                <img src="${x}" width="80" style="border: 1px solid #000">
+            `
+    }
 }
 
 buscarDetalhes()
