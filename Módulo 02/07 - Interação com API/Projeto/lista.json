@@ -1,65 +1,121 @@
 [
     {
-        "modelo":"",
-        "img":"",
-        "descricao":"",
-        "ano":"",
-        "valorComDesconto":"",
-        "valorSemDesconto":""
+        "id":1,
+        "modelo":"Ford Del rey 1.0",
+        "img": [
+                    "https://img.zipanuncios.com.br/403808/2.jpg",
+                    "https://zipanuncios.com.br/images/403808/10.jpg",
+                    "https://zipanuncios.com.br/images/403808/7.jpg",
+                    "https://zipanuncios.com.br/images/403808/7.jpg",
+                    "https://zipanuncios.com.br/images/403808/9.jpg"
+                ],
+        "descricao":"Único dono (raridade)",
+        "ano":"1989",
+        "valorComDesconto":12.000,
+        "valorSemDesconto":12.000
     },
     {
-        "modelo":"",
-        "img":"",
-        "descricao":"",
-        "ano":"",
-        "valorComDesconto":"",
-        "valorSemDesconto":""
+        "id":2,
+        "modelo":"Ford Pampa 1.8L",
+        "img": [
+                    "https://motortudo.com/wp-content/uploads/2019/10/Ford-Pampa-1.8-L-1991-Motor-Tudo-1.jpg",
+                    "https://motortudo.com/wp-content/uploads/2019/10/Ford-Pampa-1.8-L-1991-Motor-Tudo-16.jpg",
+                    "https://motortudo.com/wp-content/uploads/2019/10/Ford-Pampa-1.8-L-1991-Motor-Tudo-17.jpg",
+                    "https://motortudo.com/wp-content/uploads/2019/10/Ford-Pampa-1.8-L-1991-Motor-Tudo-15.jpg",
+                    "https://motortudo.com/wp-content/uploads/2019/10/Ford-Pampa-1.8-L-1991-Motor-Tudo-14.jpg"
+                ],
+        "descricao":"Uma picape polivalente",
+        "ano":"1991",
+        "valorComDesconto":10.000,
+        "valorSemDesconto":11.000
     },
     {
-        "modelo":"",
-        "img":"",
-        "descricao":"",
-        "ano":"",
-        "valorComDesconto":"",
-        "valorSemDesconto":""
+        "id":3,
+        "modelo":"Volkswagen Saveiro CHT1.6",
+        "img": [
+                    "https://motortudo.com/wp-content/uploads/2020/01/Saveiro-CHT-1.6-1990-1991-Motor-Tudo-2.jpg",
+                    "https://motortudo.com/wp-content/uploads/2020/01/Saveiro-CHT-1.6-1990-1991-Motor-Tudo-27.jpg",
+                    "https://motortudo.com/wp-content/uploads/2020/01/Saveiro-CHT-1.6-1990-1991-Motor-Tudo-14.jpg",
+                    "https://motortudo.com/wp-content/uploads/2020/01/Saveiro-CHT-1.6-1990-1991-Motor-Tudo-16.jpg",
+                    "https://motortudo.com/wp-content/uploads/2020/01/Saveiro-CHT-1.6-1990-1991-Motor-Tudo-19.jpg"
+                ],
+        "descricao":"Lider em economia",
+        "ano":"1990/1991",
+        "valorComDesconto":14.500,
+        "valorSemDesconto":16.250
     },
     {
-        "modelo":"",
-        "img":"",
-        "descricao":"",
-        "ano":"",
-        "valorComDesconto":"",
-        "valorSemDesconto":""
+        "id":4,
+        "modelo":"Santa matilde",
+        "img": [
+                    "https://motortudo.com/wp-content/uploads/2024/03/Santa-Matilde-carro-5-930x620.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Santa-Matilde-carro-17-1500x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Santa-Matilde-carro-2-1500x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Santa-Matilde-carro-21-1500x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Santa-Matilde-carro-22-1500x1500.webp"
+                ],
+        "descricao":"um estiloso vintage",
+        "ano":"1986",
+        "valorComDesconto":150.000,
+        "valorSemDesconto":170.000
     },
     {
-        "modelo":"",
-        "img":"",
-        "descricao":"",
-        "ano":"",
-        "valorComDesconto":"",
-        "valorSemDesconto":""
+        "id":5,
+        "modelo":"Chevrolet G-10",
+        "img": [
+                    "https://motortudo.com/wp-content/uploads/2024/03/Chevrolet-C-10-1979-restaurada-e-diferenciada-2.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Chevrolet-C-10-1979-restaurada-e-diferenciada-1.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Chevrolet-C-10-1979-restaurada-e-diferenciada-4.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Chevrolet-C-10-1979-restaurada-e-diferenciada-5.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Chevrolet-C-10-1979-restaurada-e-diferenciada-12.webp"
+                ],
+        "descricao":"restaurada e diferenciada",
+        "ano":"1979",
+        "valorComDesconto":89.000,
+        "valorSemDesconto":89.000
     },{
-        "modelo":"",
-        "img":"",
-        "descricao":"",
-        "ano":"",
-        "valorComDesconto":"",
-        "valorSemDesconto":""
+        "id":6,
+        "modelo":"FORD F250 XLT",
+        "img": [
+                    "https://motortudo.com/wp-content/uploads/2024/03/FORD-F250-XLT-Super-Duty-2004-11-930x620.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/FORD-F250-XLT-Super-Duty-2004-1-1125x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/FORD-F250-XLT-Super-Duty-2004-6-1125x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/FORD-F250-XLT-Super-Duty-2004-12-1125x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/FORD-F250-XLT-Super-Duty-2004-17-1125x1500.webp"
+                ],
+        "descricao":"4.2 6 CIL TURBO DIESEL",
+        "ano":"2004",
+        "valorComDesconto":170.000,
+        "valorSemDesconto":170.000
     },
     {
-        "modelo":"",
-        "img":"",
-        "descricao":"",
-        "ano":"",
-        "valorComDesconto":"",
-        "valorSemDesconto":""
+        "id":7,
+        "modelo":"Opala diplomata 6 cilindros",
+        "img": [
+                    "https://motortudo.com/wp-content/uploads/2024/03/Opala-Diplomata-top-2-930x620.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Opala-Diplomata-top-1.webp",
+                    "https://th.bing.com/th/id/OIP.VErvMaQNsPsTYWGd3gkkGwHaFj?pid=ImgDet&w=60&h=60&c=7&rs=1",
+                    "https://th.bing.com/th/id/OIP.qeUOJv0pRmmfgaUxi5e89QHaFj?pid=ImgDet&w=60&h=60&c=7&rs=1",
+                    "https://th.bing.com/th/id/OIP.L_vMUlIxiSstJCFx4Z-T5AHaFj?pid=ImgDet&w=60&h=60&c=7&rs=1"
+                ],
+        "descricao":"6 cilindros com saia e blusa",
+        "ano":"1985",
+        "valorComDesconto":19.000,
+        "valorSemDesconto":19.000
     },
     {
-        "modelo":"",
-        "img":"",
-        "descricao":"",
-        "ano":"",
-        "valorComDesconto":"",
-        "valorSemDesconto":""
-    },
+        "id":8,
+        "modelo":"Voyage 1.9 Turbo",
+        "img": [
+                    "https://motortudo.com/wp-content/uploads/2024/03/Voyage-quadrado-1.9-Turbo-2-930x620.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Voyage-quadrado-1.9-Turbo-7-1125x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Voyage-quadrado-1.9-Turbo-15-1125x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Voyage-quadrado-1.9-Turbo-17-1125x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Voyage-quadrado-1.9-Turbo-14-1125x1500.webp"
+                ],
+        "descricao":"turbo com 300 cavalos",
+        "ano":"1992",
+        "valorComDesconto":56.000,
+        "valorSemDesconto":56.000
+    }
 ]
