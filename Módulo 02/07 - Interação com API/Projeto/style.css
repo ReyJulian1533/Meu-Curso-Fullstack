@@ -7,8 +7,30 @@
 .card{
     display: flex;
     flex-direction: column;
-    border: 3px solid #000;
+    border: 3px solid goldenrod;
     width: fit-content;
+    align-items: center;
+    color: #000;
     border-radius: 10px;
-    padding: 10px
+    padding: 10px;
+}
+.card3{
+    display: flex;
+    flex-direction: row;
+    border: 5px solid goldenrod;
+    align-items: baseline; 
+    font-size: x-large; 
+    width: 200px;
+    margin: 3px;
+}
+.valores01{
+    color: green;
+}
+
+.valores02{
+    color: red;
+}
+.card1{
+    row-gap: 10px;
+    width: fit-content;
 }

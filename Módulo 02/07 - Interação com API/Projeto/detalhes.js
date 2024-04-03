@@ -13,11 +13,9 @@ async function buscarDetalhes(){
     }
 
     document.getElementById("detalhes").innerHTML += `
-        <h3>${produtos[indicieProd].modelo}</h3>
-        <img src="${produtos[indicieProd].img[0]}" id="frame" width="250" height="250" style="border: 1px solid #000">
-        <div class="miniaturas" id="miniaturas">
-
-        </div>
+        <h3 class="card1" style="border: 2px solid goldenrod">${produtos[indicieProd].modelo}</h3>
+        <img class="card1" src="${produtos[indicieProd].img[0]}" id="frame" width="250" height="250" style="border: 2px solid goldenrod">
+        <div class="card1" style="border: 2px solid goldenrod"  class="miniaturas" id="miniaturas"></div>
     `
 
     let divMiniaturas = document.getElementById("miniaturas")

@@ -5,27 +5,32 @@ async function listagem(){
 
     for(let x of concecionaria){
         listaDiv.innerHTML +=`
-            <div class="" data-id="${x.id}">
-                <h3>${x.modelo}</h3>
-                <img src="${x.img[0]}" width="200px" height="200px">
-                <p>${x.descricao}</p>
-                <p>${x.ano}</p>
-                <p>R$ ${x.valorComDesconto}</p>
-                <p>R$ ${x.valorSemDesconto}</p>
+            <div class="card" data-id="${x.id}">
+                <h2 class="card" style="border: 3px solid goldenrod">${x.modelo}</h3>
+                <img class="card" style="border: 1px solid goldenrod" src="${x.img[0]}" width="200px" height="200px">
+                <h3>${x.descricao}</h3>
+                <h3>Ano: ${x.ano}</h3>
+                <div class="valores01">
+                    <span class="valorCom">R$ ${x.valorComDesconto.toFixed(3).replace(".",",")}</span>
+                </div>
+                <div class="valores02">
+                    <span class="valorCom">R$ ${x.valorSemDesconto.toFixed(3).replace(".",",")}</span>
+                </div>
             </div>
         `
     }
 
-    let divCards = document.getElementsByClassName("lista-card")
+    let divCards = document.getElementsByClassName("card")
 
     for(let card of divCards){
-        card.addEventListener("click", clicou)      
+        card.addEventListener("click", clicou)
+       
     }
 }
 listagem()
 
-    function clicou(){
+function clicou(){
 
-        let elementoId = this.getAttribute("data-id")
-        window.location.href = "detalhes.html?produto id=" + elementoId
-    }
+    let elementoId = this.getAttribute("data-id")
+    window.location.href = "detalhes.html?produto-id=" + elementoId
+}
