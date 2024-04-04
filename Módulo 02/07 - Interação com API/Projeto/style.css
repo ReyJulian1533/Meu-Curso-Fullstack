@@ -1,8 +1,13 @@
+body{
+    background-color: rgb(54, 50, 50);
+}
+
 .lista-card{
     display: flex;
     flex-wrap: wrap;
     row-gap: 10px;
     column-gap: 10px;
+    align-items: center;
 }
 .card{
     display: flex;
@@ -10,27 +15,47 @@
     border: 3px solid goldenrod;
     width: fit-content;
     align-items: center;
-    color: #000;
+    color: goldenrod;
     border-radius: 10px;
     padding: 10px;
+    background-color: grey;
+}
+.card1{
+    color: goldenrod;
+    border: 5px solid goldenrod;
+    margin: 3px;
+    flex-grow: 20px;
+    font-size: xx-large;
+    width: 500px;
+    row-gap: 10px;
+    width: fit-content;
+    border-radius: 10px;
 }
 .card3{
     display: flex;
+    color: goldenrod;
     flex-direction: row;
     border: 5px solid goldenrod;
-    align-items: baseline; 
-    font-size: x-large; 
-    width: 200px;
+    align-items: center; 
+    flex-grow: 20px;
+    font-size: xx-large; 
+    width: 1000px;
     margin: 3px;
+    background-color: gray;
+    border-radius: 10px;
+
 }
 .valores01{
     color: green;
 }
 
 .valores02{
-    color: red;
+    color: green;
 }
-.card1{
-    row-gap: 10px;
+.detalhes{
+    border: 5px solid white;
     width: fit-content;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
