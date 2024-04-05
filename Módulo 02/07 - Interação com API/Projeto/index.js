@@ -9,6 +9,8 @@ async function listagem(){
                 <h2 class="card" style="border: 3px solid goldenrod">${x.modelo}</h3>
                 <img class="card" style="border: 1px solid goldenrod" src="${x.img[0]}" width="200px" height="200px">
                 <h3>${x.descricao}</h3>
+                <h3>${x.descricao2}</h3>
+                <h3>${x.descricao3}</h3>
                 <h3>Ano: ${x.ano}</h3>
                 <div class="valores01">
                     <span class="valorCom">R$ ${x.valorComDesconto.toFixed(3).replace(".",",")}</span>

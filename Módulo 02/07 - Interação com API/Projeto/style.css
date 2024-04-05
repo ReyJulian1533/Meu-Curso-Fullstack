@@ -22,7 +22,6 @@ body{
 }
 .card1{
     color: goldenrod;
-    border: 5px solid goldenrod;
     margin: 3px;
     flex-grow: 20px;
     font-size: xx-large;
@@ -30,6 +29,7 @@ body{
     row-gap: 10px;
     width: fit-content;
     border-radius: 10px;
+    bottom: unset;
 }
 .card3{
     display: flex;
@@ -53,9 +53,18 @@ body{
     color: green;
 }
 .detalhes{
-    border: 5px solid white;
     width: fit-content;
     align-items: center;
     display: flex;
     flex-direction: column;
+}
+.bt{
+    display: flex;
+    color: black;
+    background-color: gray;
+
+}
+.voltar1{
+    width: fit-content;
+    font-size: small;
 }
