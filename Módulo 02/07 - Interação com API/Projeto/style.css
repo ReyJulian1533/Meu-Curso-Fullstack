@@ -8,6 +8,7 @@ body{
     row-gap: 10px;
     column-gap: 10px;
     align-items: center;
+    background-image: url();
 }
 .card{
     display: flex;
@@ -36,13 +37,14 @@ body{
     color: goldenrod;
     flex-direction: row;
     border: 5px solid goldenrod;
-    align-items: center; 
+    align-items: center;
     flex-grow: 20px;
     font-size: xx-large; 
     width: 1000px;
     margin: 3px;
     background-color: gray;
     border-radius: 10px;
+    background-image: url();
 
 }
 .valores01{
@@ -50,7 +52,7 @@ body{
 }
 
 .valores02{
-    color: green;
+    color: goldenrod;
 }
 .detalhes{
     width: fit-content;
@@ -67,4 +69,8 @@ body{
 .voltar1{
     width: fit-content;
     font-size: small;
+}
+.saas{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    align-items: center;
 }
