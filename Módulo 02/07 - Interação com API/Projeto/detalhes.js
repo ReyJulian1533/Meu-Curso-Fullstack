@@ -13,15 +13,14 @@ async function buscarDetalhes(){
     }
 
     document.getElementById("detalhes").innerHTML += `
-        <h3 class="card1" style="border: 4px solid goldenrod">${produtos[indicieProd].modelo}</h3>
+    <div class=""card5 style="border: 4px solid black">
+        <h3>${produtos[indicieProd].modelo}</h3>
         <img class="card1" src="${produtos[indicieProd].img[0]}" id="frame" width="auto" height="250" style="border: 2px solid goldenrod">
         <div class="card1" class="miniaturas" id="miniaturas"></div>
-
+    </div>
     `
 
-    document.getElementById("detalhes2").innerHTML +=`
-        ,<span>Lider em vendas</span>
-    `
+   
 
     let divMiniaturas = document.getElementById("miniaturas")
     for(let x of produtos[indicieProd].img){
