@@ -20,13 +20,7 @@ body{
     
    
 }
-.card11 {
-    text-align: center;
-    color: aqua;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
+
 .card{
     display: flex;
     flex-direction: column;
@@ -38,7 +32,9 @@ body{
     padding: 10px;
     margin-bottom: 10px;
     background-color: rgb(82, 16, 16);
+    position: relative;
 }
+
 .card1{
     align-items: center;
     margin: 3px;
@@ -56,13 +52,35 @@ body{
     flex-direction: row;
     border: 5px solid goldenrod;
     align-items: center;
-    flex-grow: 20px;
     font-size: xx-large; 
     width: 1000px;
     margin: 3px;
-    background-color: gray;
+    background-color: rgb(82, 16, 16);
     border-radius: 10px;
    
+}
+.card5{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    border: 2px solid goldenrod;
+    align-items: center;
+    color: goldenrod;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(82, 16, 16);
+}
+.card6{
+   
+    width: fit-content;
+    border: 2px solid goldenrod;
+    align-items: center;
+    color: goldenrod;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(82, 16, 16);
 }
 .valores01{
     color: green;
@@ -79,18 +97,15 @@ body{
 }
 .bt{
     display: flex;
-    color: black;
-    background-color: gray;
-
+    color: goldenrod;
+    background-color: rgb(82, 16, 16);
+    font-size: x-large;
 }
 .voltar1{
     width: fit-content;
     font-size: small;
 }
-.saas{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    align-items: center;
-}
+
 .rodapé{
     display: flex;
     flex-direction: row;
@@ -98,6 +113,5 @@ body{
     border-radius: 10px;
     width: fit-content;
     font-size: xx-large;
-    color: aqua;
     background-color: gray;
 }

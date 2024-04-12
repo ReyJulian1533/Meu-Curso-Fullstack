@@ -14,7 +14,8 @@
         "descricao3":"",
         "ano":"1989",
         "valorComDesconto":12.000,
-        "valorSemDesconto":12.000
+        "valorSemDesconto":12.000,
+        "infoCar":"- Equipado com motor CHT 1.6.<br>- Tração-Dianteira<br>-  Freio a disco ventilado nas rodas dianteiras e tambor nas rodas traseiras<br>- Câmbio Manual de 5 velocidades com alavanca no assoalho"
     },
     {
         "id":2,
@@ -31,7 +32,10 @@
         "descricao3":"",
         "ano":"1991",
         "valorComDesconto":10.000,
-        "valorSemDesconto":11.000
+        "valorSemDesconto":11.000,
+        "infoCar":"- Motor AP, entregava bons 105 cv<br>- Câmbio de 5 marchas<br>- Grade de ar com três lâminas na horizontal na cor grafite<br>- Para-choque dianteiro de aço carbono cor grafite"
+
+        
     },
     {
         "id":3,
@@ -48,7 +52,8 @@
         "descricao3":"",
         "ano":"1990/1991",
         "valorComDesconto":14.500,
-        "valorSemDesconto":16.250
+        "valorSemDesconto":16.250,
+        "infoCar":""
     },
     {
         "id":4,
@@ -65,7 +70,8 @@
         "descricao3":"",
         "ano":"1986",
         "valorComDesconto":150.000,
-        "valorSemDesconto":170.000
+        "valorSemDesconto":170.000,
+        "infoCar":""
     },
     {
         "id":5,
@@ -82,7 +88,8 @@
         "descricao3":"",
         "ano":"1979",
         "valorComDesconto":89.000,
-        "valorSemDesconto":89.000
+        "valorSemDesconto":89.000,
+        "infoCar":""
     },{
         "id":6,
         "modelo":"FORD F250 XLT",
@@ -98,7 +105,8 @@
         "descricao3":"",
         "ano":"2004",
         "valorComDesconto":170.000,
-        "valorSemDesconto":170.000
+        "valorSemDesconto":170.000,
+        "infoCar":""
     },
     {
         "id":7,
@@ -115,7 +123,8 @@
         "descricao3":"",
         "ano":"1985",
         "valorComDesconto":19.000,
-        "valorSemDesconto":19.000
+        "valorSemDesconto":19.000,
+        "infoCar":""
     },
     {
         "id":8,
@@ -132,6 +141,7 @@
         "descricao3":"",
         "ano":"1992",
         "valorComDesconto":56.000,
-        "valorSemDesconto":56.000
+        "valorSemDesconto":56.000,
+        "infoCar":""
     }
 ]
