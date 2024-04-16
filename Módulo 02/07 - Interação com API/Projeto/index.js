@@ -13,10 +13,9 @@ async function listagem(){
                 <h3>${x.descricao3}</h3>
                 <h3>Ano: ${x.ano}</h3>
                 <div class="valores01">
-                    <span class="valorCom">De: R$ ${x.valorComDesconto.toFixed(3).replace(".",",")}</span>
+                    <span class="valorCom"> R$ ${x.valorComDesconto.toFixed(3).replace(".",",")}</span>
                 </div>
                 <div class="valores02">
-                    <span class="valorCom">Por: R$ ${x.valorSemDesconto.toFixed(3).replace(".",",")}</span>
                 </div>
             </div>
         `
@@ -25,9 +24,9 @@ async function listagem(){
     let divCards = document.getElementsByClassName("card")
 
     for(let card of divCards){
-        card.addEventListener("click", clicou)
-       
+        card.addEventListener("click", clicou)    
     }
+    
 }
 listagem()
 

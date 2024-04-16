@@ -3,13 +3,6 @@ body{
     background-image: url();
 }
 
-.nav{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: baseline;
-    border: 3px solid #000;
-
-}
 
 .lista-card{
     display: flex;
@@ -20,7 +13,28 @@ body{
     
    
 }
+.bt{
+    display: flex;
+    color: goldenrod;
+    background-color: rgb(82, 16, 16);
+    font-size: x-large;
+}
+.btSimular{
+    background-color: rgb(82, 16, 16) ;
+    color: goldenrod;
+    display: flex;
+    font-size: x-large;
+}
 
+.btInter{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(82, 16, 16) ;
+    color: goldenrod;
+    display: flex;
+    font-size: x-large;
+}
 .card{
     display: flex;
     flex-direction: column;
@@ -48,7 +62,6 @@ body{
 }
 .card3{
     align-items: center;
-   
     color: goldenrod;
     flex-direction: row;
     border: 5px solid goldenrod;
@@ -82,12 +95,13 @@ body{
     margin-bottom: 10px;
     background-color: rgb(82, 16, 16);
 }
-.valores01{
-    color: green;
-}
-
-.valores02{
+.cu{
+    border: 3px solid goldenrod;
+    background-color: rgb(82, 16, 16);
     color: goldenrod;
+    width: fit-content;
+    flex-direction: row;
+
 }
 .detalhes{
     width: fit-content;
@@ -95,23 +109,36 @@ body{
     display: flex;
     flex-direction: column;
 }
-.bt{
-    display: flex;
+footer{
+    align-items: center;
     color: goldenrod;
+    flex-direction: row;
+    border: 5px solid goldenrod;
+    width: 2000px;
+    margin: 3px;
     background-color: rgb(82, 16, 16);
-    font-size: x-large;
+    border-radius: 10px;
+    text-align: center;
+    font-size: xx-large;
 }
+.valores01{
+    color: green;
+}
+
+.valores02{
+    color: goldenrod;
+}
+
+
 .voltar1{
     width: fit-content;
     font-size: small;
 }
-
-.rodapé{
+.nav{
     display: flex;
-    flex-direction: row;
-    border: 3px solid goldenrod;
-    border-radius: 10px;
-    width: fit-content;
-    font-size: xx-large;
-    background-color: gray;
+    flex-wrap: wrap;
+    align-items: baseline;
+    border: 3px solid #000;
+
 }
+

@@ -14,7 +14,6 @@
         "descricao3":"",
         "ano":"1989",
         "valorComDesconto":12.000,
-        "valorSemDesconto":12.000,
         "infoCar":"- Equipado com motor CHT 1.6.<br>- Tração-Dianteira<br>-  Freio a disco ventilado nas rodas dianteiras e tambor nas rodas traseiras<br>- Câmbio Manual de 5 velocidades com alavanca no assoalho"
     },
     {
@@ -32,10 +31,7 @@
         "descricao3":"",
         "ano":"1991",
         "valorComDesconto":10.000,
-        "valorSemDesconto":11.000,
-        "infoCar":"- Motor AP, entregava bons 105 cv<br>- Câmbio de 5 marchas<br>- Grade de ar com três lâminas na horizontal na cor grafite<br>- Para-choque dianteiro de aço carbono cor grafite"
-
-        
+        "infoCar":"- Motor AP, entregava bons 105 cv<br>- Câmbio de 5 marchas<br>- Grade de ar com três lâminas na horizontal na cor grafite<br>- Para-choque dianteiro de aço carbono cor grafite"        
     },
     {
         "id":3,
@@ -52,7 +48,6 @@
         "descricao3":"",
         "ano":"1990/1991",
         "valorComDesconto":14.500,
-        "valorSemDesconto":16.250,
         "infoCar":"- Altissimo desempenho<br>- Utilizando o confiável motor CHT / AE 76 cv<br>-  Câmbio de 5 velocidades<br>- Carga máxima de 580 kg<br>- Farois de neblina"
     },
     {
@@ -70,7 +65,6 @@
         "descricao3":"",
         "ano":"1986",
         "valorComDesconto":150.000,
-        "valorSemDesconto":170.000,
         "infoCar":"- Faróis com luzes de longo alcance embutidas no mesmo conjunto dos faróis<br>- Carroceria estilo cupê<br>- Sedã médio de duas portas<br>- Motor 4.1 Cód 250-S com 6 Cilindros<br>- 2 Válvulas por cilindro<br>- Potência de 171 cv<br>- Peso Torque 36,15 kg/kgfm"
     },
     {
@@ -88,7 +82,6 @@
         "descricao3":"",
         "ano":"1979",
         "valorComDesconto":89.000,
-        "valorSemDesconto":89.000,
         "infoCar":"- Quilometragem 74000<br>- Câmbio manual de 6 marchas<br>- Direção Hdraulica<br>- 4 alto falantes<br>- Central mult-mídia com conecção com android<br>- IPVA pago"
     },{
         "id":6,
@@ -105,7 +98,6 @@
         "descricao3":"",
         "ano":"2004",
         "valorComDesconto":170.000,
-        "valorSemDesconto":170.000,
         "infoCar":"- Motor 4.2 6 CIL TURBO DIESEL<br>- Suspensão preparada legalizada no documento<br>- Pneus BF<br>- Rodas originais<br>- Protetor de Caçamba<br>- Lona marítima<br>- Ar condicionado gelando<br>- Direção hidráulica<br>- Travas e Vidros elétricos."
     },
     {
@@ -123,7 +115,6 @@
         "descricao3":"",
         "ano":"1985",
         "valorComDesconto":19.000,
-        "valorSemDesconto":19.000,
         "infoCar":"- Largura 1766 mm<br>- Altura 1365 mm<br>- Aceleração de 0 a 100 12,2 Segundos<br>- Velocidade máxima 173 km/h<br>- Consumo de Cidade 6,1 km/l e na Estrada 9,4 km/l<br>- Comando 49g; Direção hidráulica; Embreagem AP light 980 lb; Turbina .50; Capa para turbina; Reservatório de água e de fluido de inox; Roda fônica."
     },
     {
@@ -141,7 +132,6 @@
         "descricao3":"",
         "ano":"1992",
         "valorComDesconto":56.000,
-        "valorSemDesconto":56.000,
         "infoCar":"- Tapetes personalizados da cor do interior<br>- Turbo acertado com 300 Cv roda<br>- 145.600 km rodados<br>- Legalizado<br>- Suspensão e lâmpada<br>- carro montado nos mínimos detalhes<br>- Comando 49g<br>- Direção hidráulica<br>- Embreagem AP light 980 lb<br>- Turbina .50 com Capa para turbina<br>- Reservatório de água e de fluido de inox<br>- Roda fônica."
     }
 ]

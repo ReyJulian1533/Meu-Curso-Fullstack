@@ -26,6 +26,12 @@ async function buscarDetalhes(){
     </div>
     `
 
+    document.getElementById("detalhes").innerHTML += `
+    <div>
+
+    </div>
+    `    
+
     let divMiniaturas = document.getElementById("miniaturas")
     for(let x of produtos[indicieProd].img){
         divMiniaturas.innerHTML +=`
@@ -37,10 +43,32 @@ async function buscarDetalhes(){
     for(let x of minizinhas){
         x.addEventListener("mouseover", deslize)
     }
-}
+
+    {
+    let divCards = document.getElementsByClassName("btSimular")   
+    for(let card of divCards){
+        card.addEventListener("click", clicou)    
+    }
+            
+    }
+    {
+    let divCards = document.getElementsByClassName("btInter")   
+    for(let card of divCards){
+        card.addEventListener("click", clicou)    
+    }
+                
+    }
 
 function deslize(){
     document.getElementById("frame").src = this.src
 }
 
+}
 buscarDetalhes()
+
+function clicou(){
+
+    let elementoId = this.getAttribute("data-id")
+    window.location.href = "detalhes2.html?produto-id=" + elementoId
+}
+
