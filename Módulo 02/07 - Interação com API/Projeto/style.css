@@ -1,6 +1,8 @@
 body{
     background-color: rgb(54, 50, 50);
     background-image: url();
+    cursor: default;
+    cursor: pointer;
 }
 
 
@@ -20,19 +22,19 @@ body{
     font-size: x-large;
 }
 .btSimular{
+    margin: 10px;
+    padding: 5px;
     background-color: rgb(82, 16, 16) ;
     color: goldenrod;
-    display: flex;
     font-size: x-large;
 }
 
 .btInter{
     margin: 10px;
-    display: flex;
+    padding: 5px;
     flex-direction: row;
     background-color: rgb(82, 16, 16) ;
     color: goldenrod;
-    display: flex;
     font-size: x-large;
 }
 .card{
@@ -85,7 +87,7 @@ body{
     background-color: rgb(82, 16, 16);
 }
 .card6{
-   
+    margin: 10px;
     width: fit-content;
     border: 2px solid goldenrod;
     align-items: center;
@@ -96,6 +98,21 @@ body{
     background-color: rgb(82, 16, 16);
 }
 .cu{
+    border: 3px solid goldenrod;
+    background-color: rgb(82, 16, 16);
+    color: goldenrod;
+    width: fit-content;
+    flex-direction: row;
+
+}
+.cu-1{
+    border: 3px solid goldenrod;
+    background-color: rgb(82, 16, 16);
+    color: goldenrod;
+    width: fit-content;
+    flex-direction: row;
+}
+.cu2{
     border: 3px solid goldenrod;
     background-color: rgb(82, 16, 16);
     color: goldenrod;
@@ -120,6 +137,12 @@ footer{
     border-radius: 10px;
     text-align: center;
     font-size: xx-large;
+}
+.pesquisa{
+    border: goldenrod;
+    font-size: x-large;
+    background-color: rgb(82, 16, 16);
+    color: goldenrod;
 }
 .valores01{
     color: green;

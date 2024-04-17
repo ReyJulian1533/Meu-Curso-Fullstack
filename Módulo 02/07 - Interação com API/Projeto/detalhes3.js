@@ -1,4 +1,4 @@
-async function buscarDetalhes2(){
+async function buscarDetalhes3(){
     let busca = await fetch("lista.json")
     let produtos = await busca.json()
 
@@ -11,14 +11,14 @@ async function buscarDetalhes2(){
             indicieProd = x
         }
     }
-    document.getElementById("detalhes2").innerHTML +=`
+    document.getElementById("detalhes3").innerHTML +=`
     <div class="dts">
-        <h3>Financiamento simulado</h3>
+        <h3>Dados pessoais</h3>
         <img class="">     
     </div>
     `
     {
-        let divCards = document.getElementsByClassName("btSimular")   
+        let divCards = document.getElementsByClassName("btInter")   
         for(let card of divCards){
             card.addEventListener("click", clicou)    
         }
@@ -26,4 +26,4 @@ async function buscarDetalhes2(){
     }
     
 }
-buscarDetalhes2()
+buscarDetalhes3()

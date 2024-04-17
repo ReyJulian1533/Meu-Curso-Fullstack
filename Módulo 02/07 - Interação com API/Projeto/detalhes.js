@@ -45,16 +45,16 @@ async function buscarDetalhes(){
     }
 
     {
-    let divCards = document.getElementsByClassName("btSimular")   
-    for(let card of divCards){
+    let divCards02 = document.getElementsByClassName("btSimular")   
+    for(let card of divCards02){
         card.addEventListener("click", clicou)    
     }
             
     }
     {
-    let divCards = document.getElementsByClassName("btInter")   
-    for(let card of divCards){
-        card.addEventListener("click", clicou)    
+    let divCards3 = document.getElementsByClassName("btInter")   
+    for(let card of divCards3){
+        card.addEventListener("click", clicou2)    
     }
                 
     }
@@ -72,3 +72,8 @@ function clicou(){
     window.location.href = "detalhes2.html?produto-id=" + elementoId
 }
 
+function clicou2(){
+
+    let elementoId = this.getAttribute("data-id")
+    window.location.href = "detalhes3.html?produto-id=" + elementoId
+}
