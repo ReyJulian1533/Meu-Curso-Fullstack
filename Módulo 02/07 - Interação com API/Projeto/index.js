@@ -2,6 +2,7 @@ async function listagem(){
     let listagem = await fetch("lista.json")
     let concecionaria = await listagem.json()
     let listaDiv = document.getElementById("lista-card")
+    console.log(concecionaria)
 
     for(let x of concecionaria){
         listaDiv.innerHTML +=`
@@ -26,42 +27,10 @@ async function listagem(){
     for(let card of divCards){
         card.addEventListener("click", clicou)    
     }
-    
-    lista.Json = [
-        { "id": 1, "nome": "modelo 1" },
-        { "id": 2, "nome": "modelo 2" },
-        { "id": 3, "nome": "modelo 3" },
-        { "id": 4, "nome": "modelo 4" },
-        { "id": 5, "nome": "modelo 5" },
-        { "id": 6, "nome": "modelo 6" },
-        { "id": 7, "nome": "modelo 7" },
-        { "id": 8, "nome": "modelo 8" }
-      ];
 
-    function renderizarLista(itens) {
-        let lista = document.getElementById("listaItens");
-        lista.innerHTML = "";
+    showResults(concecionaria);
+}
 
-        itens.forEach(item => {
-            const li = document.createElement("li");
-            li.textContent = item.nome;
-            lista.appendChild(li);
-          });
-        }
-        
-        function filtrarItens(pesquisa) {
-          const itensFiltrados = listaJSON.filter(item =>
-            item.nome.toLowerCase().includes(pesquisa.toLowerCase())
-          );
-          renderizarLista(itensFiltrados);
-        }
-        
-        renderizarLista(listaJSON);
-        
-        document.getElementById("inputPesquisa").addEventListener("input", function() {
-          filtrarItens(this.value);
-        });
-    }
 listagem()
 
 function clicou(){
@@ -70,3 +39,29 @@ function clicou(){
     window.location.href = "detalhes.html?produto-id=" + elementoId
 }
 
+var searchInput = document.getElementById('searchInput');
+var resultsList = document.getElementById('results');
+
+// Função para exibir os resultados da pesquisa
+function showResults(results) {
+    resultsList.innerHTML = ''; // Limpa os resultados anteriores
+
+    results.forEach(function(item) {
+        var li = document.createElement('li');
+        li.classList.add('result-item');
+        li.innerHTML = '<strong>' + item.modelo + '</strong>: ' + item.descricao;
+        resultsList.appendChild(li);
+    });
+}
+
+// Função para realizar a pesquisa
+function search() {
+    var query = searchInput.value.toLowerCase();
+    var results = data.filter(function(item) {
+        return item.modelo.toLowerCase().includes(query) || item.descricao.toLowerCase().includes(query);
+    });
+    showResults(results);
+}
+
+// Evento de entrada na barra de pesquisa
+searchInput.addEventListener('input', search);

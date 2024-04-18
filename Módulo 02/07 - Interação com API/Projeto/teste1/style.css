@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  #results {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .result-item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+  }
+  
+  .result-item:last-child {
+    border-bottom: none;
+  }
+  

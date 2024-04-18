@@ -1,0 +1,137 @@
+[
+    {
+        "id":1,
+        "modelo":"Ford Del rey 1.0",
+        "img": [
+                    "https://img.zipanuncios.com.br/403808/2.jpg",
+                    "https://zipanuncios.com.br/images/403808/10.jpg",
+                    "https://zipanuncios.com.br/images/403808/7.jpg",
+                    "https://zipanuncios.com.br/images/403808/4.jpg",
+                    "https://zipanuncios.com.br/images/403808/9.jpg"
+                ],
+        "descricao":"Único dono (raridade)",
+        "descricao2":"Taxa 0 em até 24x",
+        "descricao3":"",
+        "ano":"1989",
+        "valorComDesconto":12.000,
+        "infoCar":"- Equipado com motor CHT 1.6.<br>- Tração-Dianteira<br>-  Freio a disco ventilado nas rodas dianteiras e tambor nas rodas traseiras<br>- Câmbio Manual de 5 velocidades com alavanca no assoalho"
+    },
+    {
+        "id":2,
+        "modelo":"Ford Pampa 1.8L",
+        "img": [
+                    "https://motortudo.com/wp-content/uploads/2019/10/Ford-Pampa-1.8-L-1991-Motor-Tudo-1.jpg",
+                    "https://motortudo.com/wp-content/uploads/2019/10/Ford-Pampa-1.8-L-1991-Motor-Tudo-16.jpg",
+                    "https://motortudo.com/wp-content/uploads/2019/10/Ford-Pampa-1.8-L-1991-Motor-Tudo-17.jpg",
+                    "https://motortudo.com/wp-content/uploads/2019/10/Ford-Pampa-1.8-L-1991-Motor-Tudo-15.jpg",
+                    "https://motortudo.com/wp-content/uploads/2019/10/Ford-Pampa-1.8-L-1991-Motor-Tudo-14.jpg"
+                ],
+        "descricao":"Uma picape polivalente",
+        "descricao2":"Taxa 0 em até 24x",
+        "descricao3":"",
+        "ano":"1991",
+        "valorComDesconto":10.000,
+        "infoCar":"- Motor AP, entregava bons 105 cv<br>- Câmbio de 5 marchas<br>- Grade de ar com três lâminas na horizontal na cor grafite<br>- Para-choque dianteiro de aço carbono cor grafite"        
+    },
+    {
+        "id":3,
+        "modelo":"Volkswagen Saveiro CHT1.6",
+        "img": [
+                    "https://motortudo.com/wp-content/uploads/2020/01/Saveiro-CHT-1.6-1990-1991-Motor-Tudo-2.jpg",
+                    "https://motortudo.com/wp-content/uploads/2020/01/Saveiro-CHT-1.6-1990-1991-Motor-Tudo-27.jpg",
+                    "https://motortudo.com/wp-content/uploads/2020/01/Saveiro-CHT-1.6-1990-1991-Motor-Tudo-14.jpg",
+                    "https://motortudo.com/wp-content/uploads/2020/01/Saveiro-CHT-1.6-1990-1991-Motor-Tudo-16.jpg",
+                    "https://motortudo.com/wp-content/uploads/2020/01/Saveiro-CHT-1.6-1990-1991-Motor-Tudo-19.jpg"
+                ],
+        "descricao":"Lider em economia",
+        "descricao2":"Taxa 0 em até 24x",
+        "descricao3":"",
+        "ano":"1990/1991",
+        "valorComDesconto":14.500,
+        "infoCar":"- Altissimo desempenho<br>- Utilizando o confiável motor CHT / AE 76 cv<br>-  Câmbio de 5 velocidades<br>- Carga máxima de 580 kg<br>- Farois de neblina"
+    },
+    {
+        "id":4,
+        "modelo":"Santa matilde",
+        "img": [
+                    "https://motortudo.com/wp-content/uploads/2024/03/Santa-Matilde-carro-5-930x620.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Santa-Matilde-carro-17-1500x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Santa-Matilde-carro-2-1500x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Santa-Matilde-carro-21-1500x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Santa-Matilde-carro-22-1500x1500.webp"
+                ],
+        "descricao":"um estiloso vintage",
+        "descricao2":"Taxa 0 em até 24x",
+        "descricao3":"",
+        "ano":"1986",
+        "valorComDesconto":150.000,
+        "infoCar":"- Faróis com luzes de longo alcance embutidas no mesmo conjunto dos faróis<br>- Carroceria estilo cupê<br>- Sedã médio de duas portas<br>- Motor 4.1 Cód 250-S com 6 Cilindros<br>- 2 Válvulas por cilindro<br>- Potência de 171 cv<br>- Peso Torque 36,15 kg/kgfm"
+    },
+    {
+        "id":5,
+        "modelo":"Chevrolet G-10",
+        "img": [
+                    "https://motortudo.com/wp-content/uploads/2024/03/Chevrolet-C-10-1979-restaurada-e-diferenciada-2.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Chevrolet-C-10-1979-restaurada-e-diferenciada-1.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Chevrolet-C-10-1979-restaurada-e-diferenciada-4.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Chevrolet-C-10-1979-restaurada-e-diferenciada-5.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Chevrolet-C-10-1979-restaurada-e-diferenciada-12.webp"
+                ],
+        "descricao":"restaurada e diferenciada",
+        "descricao2":"Taxa 0 em até 24x",
+        "descricao3":"",
+        "ano":"1979",
+        "valorComDesconto":89.000,
+        "infoCar":"- Quilometragem 74000<br>- Câmbio manual de 6 marchas<br>- Direção Hdraulica<br>- 4 alto falantes<br>- Central mult-mídia com conecção com android<br>- IPVA pago"
+    },{
+        "id":6,
+        "modelo":"FORD F250 XLT",
+        "img": [
+                    "https://motortudo.com/wp-content/uploads/2024/03/FORD-F250-XLT-Super-Duty-2004-11-930x620.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/FORD-F250-XLT-Super-Duty-2004-1-1125x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/FORD-F250-XLT-Super-Duty-2004-6-1125x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/FORD-F250-XLT-Super-Duty-2004-12-1125x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/FORD-F250-XLT-Super-Duty-2004-17-1125x1500.webp"
+                ],
+        "descricao":"4.2 6 CIL TURBO DIESEL",
+        "descricao2":"Taxa 0 em até 24x",
+        "descricao3":"",
+        "ano":"2004",
+        "valorComDesconto":170.000,
+        "infoCar":"- Motor 4.2 6 CIL TURBO DIESEL<br>- Suspensão preparada legalizada no documento<br>- Pneus BF<br>- Rodas originais<br>- Protetor de Caçamba<br>- Lona marítima<br>- Ar condicionado gelando<br>- Direção hidráulica<br>- Travas e Vidros elétricos."
+    },
+    {
+        "id":7,
+        "modelo":"Opala diplomata 6 cilindros",
+        "img": [
+                    "https://motortudo.com/wp-content/uploads/2024/03/Opala-Diplomata-top-2-930x620.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Opala-Diplomata-top-1.webp",
+                    "https://th.bing.com/th/id/OIP.VErvMaQNsPsTYWGd3gkkGwHaFj?pid=ImgDet&w=60&h=60&c=7&rs=1",
+                    "https://th.bing.com/th/id/OIP.qeUOJv0pRmmfgaUxi5e89QHaFj?pid=ImgDet&w=60&h=60&c=7&rs=1",
+                    "https://th.bing.com/th/id/OIP.L_vMUlIxiSstJCFx4Z-T5AHaFj?pid=ImgDet&w=60&h=60&c=7&rs=1"
+                ],
+        "descricao":"6 cilindros com saia e blusa",
+        "descricao2":"Taxa 0 em até 24x",
+        "descricao3":"",
+        "ano":"1985",
+        "valorComDesconto":19.000,
+        "infoCar":"- Largura 1766 mm<br>- Altura 1365 mm<br>- Aceleração de 0 a 100 12,2 Segundos<br>- Velocidade máxima 173 km/h<br>- Consumo de Cidade 6,1 km/l e na Estrada 9,4 km/l<br>- Comando 49g; Direção hidráulica; Embreagem AP light 980 lb; Turbina .50; Capa para turbina; Reservatório de água e de fluido de inox; Roda fônica."
+    },
+    {
+        "id":8,
+        "modelo":"Voyage 1.9 Turbo",
+        "img": [
+                    "https://motortudo.com/wp-content/uploads/2024/03/Voyage-quadrado-1.9-Turbo-2-930x620.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Voyage-quadrado-1.9-Turbo-7-1125x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Voyage-quadrado-1.9-Turbo-15-1125x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Voyage-quadrado-1.9-Turbo-17-1125x1500.webp",
+                    "https://motortudo.com/wp-content/uploads/2024/03/Voyage-quadrado-1.9-Turbo-14-1125x1500.webp"
+                ],
+        "descricao":"turbo com 300 cavalos",
+        "descricao2":"Taxa 0 em até 24x",
+        "descricao3":"",
+        "ano":"1992",
+        "valorComDesconto":56.000,
+        "infoCar":"- Tapetes personalizados da cor do interior<br>- Turbo acertado com 300 Cv roda<br>- 145.600 km rodados<br>- Legalizado<br>- Suspensão e lâmpada<br>- carro montado nos mínimos detalhes<br>- Comando 49g<br>- Direção hidráulica<br>- Embreagem AP light 980 lb<br>- Turbina .50 com Capa para turbina<br>- Reservatório de água e de fluido de inox<br>- Roda fônica."
+    }
+]
