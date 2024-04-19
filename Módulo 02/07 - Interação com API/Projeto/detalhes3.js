@@ -13,8 +13,7 @@ async function buscarDetalhes3(){
     }
     document.getElementById("detalhes3").innerHTML +=`
     <div class="dts">
-        <h3>Dados pessoais</h3>
-        <img class="">     
+        
     </div>
     `
     {

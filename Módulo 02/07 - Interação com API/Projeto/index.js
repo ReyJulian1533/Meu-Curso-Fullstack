@@ -1,61 +1,14 @@
-async function listagem(){
+var data;
+
+async function listagem() {
     let listagem = await fetch("lista.json")
-    let concecionaria = await listagem.json()
-    let listaDiv = document.getElementById("lista-card")
-    console.log(concecionaria)
+    data = await listagem.json()
+    console.log(data)
 
-    for(let x of concecionaria){
-        listaDiv.innerHTML +=`
-            <div class="card" data-id="${x.id}">
-                <h2 class="card" style="border: 3px solid goldenrod">${x.modelo}</h3>
-                <img class="card" style="border: 1px solid goldenrod" src="${x.img[0]}" width="150px" height="150px">
-                <h3>${x.descricao}</h3>
-                <h3>${x.descricao2}</h3>
-                <h3>${x.descricao3}</h3>
-                <h3>Ano: ${x.ano}</h3>
-                <div class="valores01">
-                    <span class="valorCom"> R$ ${x.valorComDesconto.toFixed(3).replace(".",",")}</span>
-                </div>
-                <div class="valores02">
-                </div>
-            </div>
-        `
-    }
-
-    let divCards = document.getElementsByClassName("card")
-
-    for(let card of divCards){
-        card.addEventListener("click", clicou)    
-    }
-
-    showResults(concecionaria);
+    showResults(data);
 }
 
-listagem()
-
-function clicou(){
-
-    let elementoId = this.getAttribute("data-id")
-    window.location.href = "detalhes.html?produto-id=" + elementoId
-}
-
-var searchInput = document.getElementById('searchInput');
-var resultsList = document.getElementById('results');
-
-// Função para exibir os resultados da pesquisa
-function showResults(results) {
-    resultsList.innerHTML = ''; // Limpa os resultados anteriores
-
-    results.forEach(function(item) {
-        var li = document.createElement('li');
-        li.classList.add('result-item');
-        li.innerHTML = '<strong>' + item.modelo + '</strong>: ' + item.descricao;
-        resultsList.appendChild(li);
-    });
-}
-
-// Função para realizar a pesquisa
-function search() {
+async function search() {
     var query = searchInput.value.toLowerCase();
     var results = data.filter(function(item) {
         return item.modelo.toLowerCase().includes(query) || item.descricao.toLowerCase().includes(query);
@@ -63,5 +16,36 @@ function search() {
     showResults(results);
 }
 
-// Evento de entrada na barra de pesquisa
+function showResults(results) {
+    var listaDiv = document.getElementById("lista-card");
+    listaDiv.innerHTML = ''; // Limpa os resultados anteriores
+
+    results.forEach(function(item) {
+        listaDiv.innerHTML += `
+            <div class="card" data-id="${item.id}">
+                <h2 class="card" style="border: 3px solid goldenrod">${item.modelo}</h3>
+                <img class="card" style="border: 1px solid goldenrod" src="${item.img[0]}" width="150px" height="150px">
+                <h3>${item.descricao}</h3>
+                <h3>${item.descricao2}</h3>
+                <h3>${item.descricao3}</h3>
+                <h3>Ano: ${item.ano}</h3>
+                <div class="valores01">
+                    <span class="valorCom"> R$ ${item.valorComDesconto.toFixed(3).replace(".",",")}</span>
+                </div>
+                <div class="valores02">
+                </div>
+            </div>
+        `;
+    });
+
+    let divCards = document.getElementsByClassName("card")
+
+    for(let card of divCards){
+        card.addEventListener("click", clicou)    
+    }
+}
+
+listagem();
+
+var searchInput = document.getElementById('searchInput');
 searchInput.addEventListener('input', search);
