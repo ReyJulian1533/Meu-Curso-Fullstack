@@ -11,9 +11,10 @@ async function buscarDetalhes3(){
             indicieProd = x
         }
     }
-    document.getElementById("detalhes3").innerHTML +=`
-    <div class="dts">
-        
+    document.getElementById("carddd").innerHTML += `
+    <div class="card7">
+        <h3>Informações do proprietario:</h3>
+        <h3>${produtos[indicieProd].ctt}</h3>
     </div>
     `
     {

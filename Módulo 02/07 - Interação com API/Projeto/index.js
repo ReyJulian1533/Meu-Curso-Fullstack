@@ -3,8 +3,6 @@ var data;
 async function listagem() {
     let listagem = await fetch("lista.json")
     data = await listagem.json()
-    console.log(data)
-
     showResults(data);
 }
 
@@ -20,7 +18,8 @@ function showResults(results) {
     var listaDiv = document.getElementById("lista-card");
     listaDiv.innerHTML = ''; // Limpa os resultados anteriores
 
-    results.forEach(function(item) {
+
+    for(let item of results){
         listaDiv.innerHTML += `
             <div class="card" data-id="${item.id}">
                 <h2 class="card" style="border: 3px solid goldenrod">${item.modelo}</h3>
@@ -32,17 +31,22 @@ function showResults(results) {
                 <div class="valores01">
                     <span class="valorCom"> R$ ${item.valorComDesconto.toFixed(3).replace(".",",")}</span>
                 </div>
-                <div class="valores02">
-                </div>
             </div>
-        `;
-    });
-
-    let divCards = document.getElementsByClassName("card")
-
-    for(let card of divCards){
-        card.addEventListener("click", clicou)    
+        `
     }
+
+    let divsCards = document.getElementsByClassName("card")
+    for(let card of divsCards){
+        card.addEventListener("click", clicou)
+    }
+
+    
+}
+
+function clicou() {
+    let idElemento = this.getAttribute("data-id")
+    window.location.href = "detalhes.html?produto-id=" + idElemento
+
 }
 
 listagem();
