@@ -3,6 +3,8 @@ body{
     background-image: url(https://bucket-periodismodelmotor.s3.eu-west-3.amazonaws.com/wp-content/uploads/2014/11/Shelby-GT350-Mustang-2015-2.jpg);
     background-repeat:no-repeat;
     background-size: cover;
+    background-color: #f0f0f0;
+    color: #333;
 }
 
 #results {
@@ -175,6 +177,9 @@ footer{
     flex-wrap: wrap;
     align-items: baseline;
     border: 3px solid #000;
-
 }
-
+.pesquisa{
+    background-color: rgb(82, 16, 16);
+    font-size: x-large;
+    border: 3px solid goldenrod;
+}

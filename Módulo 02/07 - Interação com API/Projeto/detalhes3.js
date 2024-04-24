@@ -12,7 +12,7 @@ async function buscarDetalhes3(){
         }
     }
     document.getElementById("carddd").innerHTML += `
-    <div class="card7">
+    <div class="card7" data-id="btinter">
         <h3>Informações do proprietario:</h3>
         <h3>${produtos[indicieProd].ctt}</h3>
     </div>
@@ -21,9 +21,7 @@ async function buscarDetalhes3(){
         let divCards = document.getElementsByClassName("btInter")   
         for(let card of divCards){
             card.addEventListener("click", clicou)    
-        }
-            
-    }
-    
+        }           
+    }    
 }
 buscarDetalhes3()
